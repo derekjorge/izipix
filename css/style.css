@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
+
 header{
     display: block;
     height: 600px;
-    width: 700px;
+    width: 60%;
     margin: auto;
     background: url("../imagens/dk1.jpg") no-repeat 85% 50%;
     margin-top: -15px;
@@ -24,12 +25,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background-image: linear-gradient(to right, rgb(82, 43, 224), rgb(48, 9, 155));
     margin: auto;
+    width: 100%;
     }
 main{
-    margin: 5%;
     text-align: justify;
-    width: 700px;
+    width: 100%;
     margin: auto;
+    
     }
 main h1{
     margin-left: -1%;
@@ -38,18 +40,28 @@ main h1{
     font: normal bolder 20px'Courier New', Courier, monospace;
     color: rgb(255, 235, 205);
     text-shadow: 3px 3px 2px black;
+    margin: auto;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     }
 main h2{
-    margin: 2%;
+    margin: auto;
     text-align: justify;
     font: normal bolder 18px'Courier New', Courier, monospace;
-                }
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;}
 main p{
     background-color: aliceblue;
     box-shadow: 5px 5px 2px black;
     padding: 2%;
     font: normal bolder 16px'Courier New', Courier, monospace;
-    }
+    margin: auto;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+        }
 footer {
     text-align: center;
     background-color: black;
@@ -57,6 +69,8 @@ footer {
     padding: 5px;
     font-size: 13px;
     margin: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 nav{
     margin: 5%;
