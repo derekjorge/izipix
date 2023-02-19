@@ -3,30 +3,25 @@
 ul#port {
     overflow: hidden;
     list-style: none;
-    margin-bottom: 40px;
-    margin-left: 0px;
     padding: 0px;
-    width: 70%;
-    margin: 10% 10% 10% 10%;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
 }
-   
 ul#port li{
-
-float: right;
-width: 250px;
-height: 250px;
+float: left;
+width: 266px;
+height: 266px;
 border: 0px solid black;
-background-color: white;
 transition: all .2s cubic-bezier(0.83, 0, 0.25, 1.03);
-
 }
 ul#port li span{
     opacity: 0;
-    color: white;
     text-shadow: black;
     background-color: rgba(0,0,0,.5);
     font-size: 10pt;
-       }
+}
 ul#port li:hover{
    transform: scale(1.5);
     }
