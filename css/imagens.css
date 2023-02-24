@@ -11,8 +11,8 @@ ul#port {
 }
 ul#port li{
 float: left;
-width: 266px;
-height: 266px;
+width: 33.3%;
+height: 30vh;
 border: 0px solid black;
 transition: all .2s cubic-bezier(0.83, 0, 0.25, 1.03);
 }
@@ -31,13 +31,13 @@ ul#port li:hover span{
 ul#port li#img01{
     background: url("../imagens/dk 01.png") no-repeat;
     background-position: 50% 50%;
-    background-size: 100% 100%;
+    background-size: 300px 300px;
     background-color: rgba(0,0,0,.9);
 }
 ul#port li#img02{
-    background: url("../imagens/dk\ 02.png") no-repeat;
+    background: url("../imagens/dk 02.png") no-repeat;
     background-position: 50% 50%;
-    background-size: 100% 100%;
+    background-size: 300px 300px;
     background-color: rgba(0,0,0,.4);
 }
 ul#port li#img03{
@@ -59,19 +59,19 @@ ul#port li#img05{
     background-color: rgba(0,0,0,.4);
 }
 ul#port li#img06 {
-    background: url("../imagens/dk 06.png") no-repeat;
+    background: url("../imagens/dk 06.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 300px 300px;
     background-color: rgba(0, 0, 0, 1);
 }
 ul#port li#img07{
-    background: url("../imagens/dk 07.png") no-repeat;
+    background: url("../imagens/dk 07.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 300px 300px;
     background-color: rgba(0,0,0,.4);
 }
 ul#port li#img08{
-    background: url("../imagens/dk 08.png") no-repeat;
+    background: url("../imagens/dk 08.jpg") no-repeat;
     background-position: 50% 50%;
     background-size: 300px 300px;
     background-color: rgba(0,0,0,.4);
